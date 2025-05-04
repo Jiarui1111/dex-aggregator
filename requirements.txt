@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+web3
+python-dotenv
