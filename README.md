@@ -31,3 +31,26 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ``` 
+
+
+```
+以下是本项目实现过程中使用的文档与源码参考：
+
+Uniswap 官方 GitHub 仓库：
+🔗 https://github.com/Uniswap
+
+高级指南：池子数据提取（SDK v3）：
+🔗 https://docs.uniswap.org/sdk/v3/guides/advanced/pool-data
+
+智能合约接口文档：IUniswapV3PoolState：
+🔗 https://docs.uniswap.org/contracts/v3/reference/core/interfaces/pool/IUniswapV3PoolState
+
+Uniswap V3 部署地址（主网 / L2）：
+🔗 https://docs.uniswap.org/contracts/v3/reference/deployments/ethereum-deployments
+
+Uniswap V3 Factory 合约源码：
+🔗 https://github.com/Uniswap/v3-core/blob/v1.0.0/contracts/UniswapV3Factory.sol
+
+非官方 Uniswap V3 中文手册（用户界面相关）：
+🔗 https://uniswapv3book.com/milestone_4/user-interface.html
+```
