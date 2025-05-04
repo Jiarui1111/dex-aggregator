@@ -1,6 +1,6 @@
 # DEX Aggregator (Uniswap V3)
 
-A full-stack decentralized exchange aggregator based on Uniswap V3.  
+A decentralized exchange aggregator based on Uniswap V3.  
 This project supports limit order creation, optimal routing via Dijkstra search, on-chain quote fetching, and swap execution — all in a modular FastAPI backend.
 
 ---
