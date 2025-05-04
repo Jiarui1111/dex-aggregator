@@ -52,3 +52,15 @@ Uniswap V3 Factory 合约源码：
 路径搜索设计理念（基于 Dijkstra/A*算法）
 🔗 https://uniswapv3book.com/milestone_4/user-interface.html
 ```
+
+接口说明
+```
+POST /orders/limit
+创建新的限价订单，写入数据库。
+
+POST /orders/{order_id}/cancel
+取消指定订单（仅支持 OPEN 或 PENDING 状态）。
+
+POST /orders/{order_id}/reset
+在 swap 执行失败或异常中断后，将订单状态从 PENDING 重置为 OPEN，使其重新参与下一轮撮合。
+```
