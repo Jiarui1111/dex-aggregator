@@ -49,6 +49,6 @@ Uniswap V3 部署地址（主网 / L2）：
 Uniswap V3 Factory 合约源码：
 🔗 https://github.com/Uniswap/v3-core/blob/v1.0.0/contracts/UniswapV3Factory.sol
 
-路径搜索设计理念（基于 A）*
+路径搜索设计理念（基于 A*算法）
 🔗 https://uniswapv3book.com/milestone_4/user-interface.html
 ```
